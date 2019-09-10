@@ -25,7 +25,7 @@ namespace VideoSpeed {
       switch (event.keyCode) {
         case 219: this.eventsHandler.subtractFromPlaybackRate(); break; // [ key
         case 221: this.eventsHandler.addToPlaybackRate(); break;        // ] key
-        case 48:  this.eventsHandler.resetPlaybackRate(); break;        // 0 key
+        case 82:  this.eventsHandler.resetPlaybackRate(); break;        // r key
         case 187: this.eventsHandler.skipForward(); break;              // + key
         case 189: this.eventsHandler.skipBack(); break;                 // - key
       }
