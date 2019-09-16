@@ -1,0 +1,28 @@
+.videoSpeed.speedIndicator {
+  position: absolute;
+  top: 10px;
+  color: yellow;
+	font-size: small;
+  text-align: center;
+  min-width: 20px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px;
+  z-index: 9999999999;
+  border-radius: 3px;
+  /*box-shadow: gray 0 0 3px;*/
+  /*border: 2px solid rgba(0, 0, 0, 0.5);*/
+  visibility: hidden;
+}
+.videoSpeed.speedIndicator.fadein {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.05s ease-out;
+}
+.videoSpeed.speedIndicator.fadeout {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in, visibility 0s 0.3s;
+}
+
+/*# sourceMappingURL=video-speed.css.map */
